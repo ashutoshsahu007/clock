@@ -1,4 +1,4 @@
 const CurrentTime = () => {
-  return;
+  return <p>This is current Time</p>;
 };
 export default CurrentTime;
