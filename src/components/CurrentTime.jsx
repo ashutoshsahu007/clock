@@ -1,4 +1,10 @@
 const CurrentTime = () => {
-  return <p>This is current Time</p>;
+  let time = new Date();
+  return (
+    <p className="lead">
+      This is current Time : {time.toLocaleDateString()} -
+      {time.toLocaleTimeString()}
+    </p>
+  );
 };
 export default CurrentTime;
